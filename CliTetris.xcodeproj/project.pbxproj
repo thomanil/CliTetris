@@ -10,7 +10,22 @@
 		8D42BEC2197E8D9A00AFB153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42BEC1197E8D9A00AFB153 /* Foundation.framework */; };
 		8D42BEC5197E8D9A00AFB153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D42BEC4197E8D9A00AFB153 /* main.m */; };
 		8D42BEC9197E8D9A00AFB153 /* CliTetris.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D42BEC8197E8D9A00AFB153 /* CliTetris.1 */; };
+		8D42BED7197E995F00AFB153 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42BED6197E995F00AFB153 /* XCTest.framework */; };
+		8D42BED8197E995F00AFB153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42BEC1197E8D9A00AFB153 /* Foundation.framework */; };
+		8D42BEDA197E995F00AFB153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42BED9197E995F00AFB153 /* UIKit.framework */; };
+		8D42BEE0197E995F00AFB153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D42BEDE197E995F00AFB153 /* InfoPlist.strings */; };
+		8D42BEE2197E995F00AFB153 /* CliTetrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D42BEE1197E995F00AFB153 /* CliTetrisTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D42BEE4197E995F00AFB153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D42BEB6197E8D9A00AFB153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D42BEBD197E8D9A00AFB153;
+			remoteInfo = CliTetris;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8D42BEBC197E8D9A00AFB153 /* CopyFiles */ = {
@@ -31,6 +46,13 @@
 		8D42BEC4197E8D9A00AFB153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D42BEC7197E8D9A00AFB153 /* CliTetris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CliTetris-Prefix.pch"; sourceTree = "<group>"; };
 		8D42BEC8197E8D9A00AFB153 /* CliTetris.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CliTetris.1; sourceTree = "<group>"; };
+		8D42BED5197E995F00AFB153 /* CliTetrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CliTetrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D42BED6197E995F00AFB153 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8D42BED9197E995F00AFB153 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D42BEDD197E995F00AFB153 /* CliTetrisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CliTetrisTests-Info.plist"; sourceTree = "<group>"; };
+		8D42BEDF197E995F00AFB153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D42BEE1197E995F00AFB153 /* CliTetrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CliTetrisTests.m; sourceTree = "<group>"; };
+		8D42BEE3197E995F00AFB153 /* CliTetrisTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CliTetrisTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +64,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D42BED2197E995F00AFB153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D42BED7197E995F00AFB153 /* XCTest.framework in Frameworks */,
+				8D42BEDA197E995F00AFB153 /* UIKit.framework in Frameworks */,
+				8D42BED8197E995F00AFB153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				8D42BEC3197E8D9A00AFB153 /* CliTetris */,
+				8D42BEDB197E995F00AFB153 /* CliTetrisTests */,
 				8D42BEC0197E8D9A00AFB153 /* Frameworks */,
 				8D42BEBF197E8D9A00AFB153 /* Products */,
 			);
@@ -58,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				8D42BEBE197E8D9A00AFB153 /* CliTetris */,
+				8D42BED5197E995F00AFB153 /* CliTetrisTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				8D42BEC1197E8D9A00AFB153 /* Foundation.framework */,
+				8D42BED6197E995F00AFB153 /* XCTest.framework */,
+				8D42BED9197E995F00AFB153 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +120,25 @@
 			isa = PBXGroup;
 			children = (
 				8D42BEC7197E8D9A00AFB153 /* CliTetris-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D42BEDB197E995F00AFB153 /* CliTetrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D42BEE1197E995F00AFB153 /* CliTetrisTests.m */,
+				8D42BEDC197E995F00AFB153 /* Supporting Files */,
+			);
+			path = CliTetrisTests;
+			sourceTree = "<group>";
+		};
+		8D42BEDC197E995F00AFB153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D42BEDD197E995F00AFB153 /* CliTetrisTests-Info.plist */,
+				8D42BEDE197E995F00AFB153 /* InfoPlist.strings */,
+				8D42BEE3197E995F00AFB153 /* CliTetrisTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +163,24 @@
 			productReference = 8D42BEBE197E8D9A00AFB153 /* CliTetris */;
 			productType = "com.apple.product-type.tool";
 		};
+		8D42BED4197E995F00AFB153 /* CliTetrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D42BEE8197E995F00AFB153 /* Build configuration list for PBXNativeTarget "CliTetrisTests" */;
+			buildPhases = (
+				8D42BED1197E995F00AFB153 /* Sources */,
+				8D42BED2197E995F00AFB153 /* Frameworks */,
+				8D42BED3197E995F00AFB153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D42BEE5197E995F00AFB153 /* PBXTargetDependency */,
+			);
+			name = CliTetrisTests;
+			productName = CliTetrisTests;
+			productReference = 8D42BED5197E995F00AFB153 /* CliTetrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +189,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Thomas Kjeldahl Nilsson";
+				TargetAttributes = {
+					8D42BED4197E995F00AFB153 = {
+						TestTargetID = 8D42BEBD197E8D9A00AFB153;
+					};
+				};
 			};
 			buildConfigurationList = 8D42BEB9197E8D9A00AFB153 /* Build configuration list for PBXProject "CliTetris" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,9 +208,21 @@
 			projectRoot = "";
 			targets = (
 				8D42BEBD197E8D9A00AFB153 /* CliTetris */,
+				8D42BED4197E995F00AFB153 /* CliTetrisTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D42BED3197E995F00AFB153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D42BEE0197E995F00AFB153 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D42BEBA197E8D9A00AFB153 /* Sources */ = {
@@ -143,7 +233,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D42BED1197E995F00AFB153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D42BEE2197E995F00AFB153 /* CliTetrisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D42BEE5197E995F00AFB153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D42BEBD197E8D9A00AFB153 /* CliTetris */;
+			targetProxy = 8D42BEE4197E995F00AFB153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D42BEDE197E995F00AFB153 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D42BEDF197E995F00AFB153 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8D42BECA197E8D9A00AFB153 /* Debug */ = {
@@ -234,6 +351,47 @@
 			};
 			name = Release;
 		};
+		8D42BEE6197E995F00AFB153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CliTetrisTests/CliTetrisTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CliTetrisTests/CliTetrisTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8D42BEE7197E995F00AFB153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CliTetrisTests/CliTetrisTests-Prefix.pch";
+				INFOPLIST_FILE = "CliTetrisTests/CliTetrisTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -251,6 +409,15 @@
 			buildConfigurations = (
 				8D42BECD197E8D9A00AFB153 /* Debug */,
 				8D42BECE197E8D9A00AFB153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D42BEE8197E995F00AFB153 /* Build configuration list for PBXNativeTarget "CliTetrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D42BEE6197E995F00AFB153 /* Debug */,
+				8D42BEE7197E995F00AFB153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

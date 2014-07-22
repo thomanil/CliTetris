@@ -1,7 +1,10 @@
 * Add unit testing support
   Kiwi!
 
-* Basic data structures
+* Impl basic data structures
+  Field
+  Piece (with different shapes)
+
 * Render state to console
   Use logging statements
   Clear screen before each render: echo -e '\0033\0143'
