@@ -5,6 +5,8 @@ CLI Tetris
 A basic, cli-only implementation of Tetris in objective c.
 
 
+
+
 Building and running it
 =====
 
@@ -14,6 +16,18 @@ To clean, build and run in one line, run this from the root of the project:
 
 	xcodebuild -scheme CliTetris clean build \
 	&& DerivedData/CliTetris/Build/Products/Debug/CliTetris
+
+To see whats available in the build:
+
+	xcodebuild -list -project CliTetris.xcodeproj
+
+
+Opening the project in xcode
+=====
+
+Follow cocoapod suggestion to avoid issues:
+
+	open CliTetris.xcworkspace/
 
 
 Writing/running unit tests
