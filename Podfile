@@ -9,8 +9,7 @@ target "CliTetrisTests" do
 
 end
 
-# Add Kiwi as an exclusive dependency for the AmazingAppTests target
+# Add Kiwi as an exclusive dependency for the test target
 target :CliTetrisTests, :exclusive => true do
-  pod 'Kiwi'
-  #pod 'Kiwi/XCTest'
+  pod "Kiwi/XCTest", "~> 2.2.4"
 end
