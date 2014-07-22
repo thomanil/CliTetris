@@ -5,7 +5,7 @@ CLI Tetris
 A basic, cli-only implementation of Tetris in objective c.
 
 
-Building and running the project from the command line
+Building and running it
 =====
 
 Note: the xcode project settings have been set to build derived files locally.
