@@ -1,0 +1,8 @@
+* Add unit testing support
+* Basic data structures
+* Render state to console
+  Use logging statements
+  Clear screen before each render: echo -e '\0033\0143'
+
+* Read/react to input
+* Setup game loop
